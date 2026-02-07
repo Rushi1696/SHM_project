@@ -156,11 +156,4 @@ Adding sensor data
 - The codebase includes hooks for sensor-driven analysis (see `core/data_collector.py`, `core/failure_fingerprinting.py`, `core/cross_asset_learning.py`).
 - I can add a `--sensor-file` flag or CSV ingest to the dashboard if you want to load real sensor files.
 
-Repository
-- Remote: https://github.com/Rushi1696/SHM_project.git
 
-Next steps
-- Add `.gitignore` (recommended) and CI workflow to run tests on push.
-- Optionally wire a persistent datastore for inspection/maintenance history.
-
-If you want, I can add `--sensor-file` ingestion to the runner and dashboard, or add a Save Report button to the dashboard.
