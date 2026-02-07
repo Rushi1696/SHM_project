@@ -1,0 +1,13 @@
+{
+  "asset_id": "VESSEL_001",
+  "component": {"type":"pipeline","material":"carbon_steel","age_years":10},
+  "risk": {"probability":5.0,"consequence":5.0},
+  "impacts": {"financial_usd":50000,"safety":5.0,"environmental":2.0,"production":4.0},
+  "operational": {"pressure_mpa":10.0,"temperature_c":60.0,"cycles_per_year":2000},
+  "activities": [
+    {"activity_id":"ACT_001","type":"preventive","duration_hours":24,"cost_usd":12000,"priority":"high"},
+    {"activity_id":"ACT_002","type":"corrective","duration_hours":48,"cost_usd":25000,"priority":"high"}
+  ],
+  "constraints": {"max_budget_usd":150000,"max_downtime_hours":200,"available_crew":10},
+  "preferences": {"weight_risk_vs_cost":0.7,"prefer_min_downtime":true}
+}

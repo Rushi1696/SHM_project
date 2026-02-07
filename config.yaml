@@ -1,0 +1,7 @@
+# Global configuration (placeholder)
+logging:
+  level: INFO
+data_paths:
+  input: data/input
+  assets: data/assets
+  models: data/models

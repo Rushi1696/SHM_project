@@ -1,0 +1,29 @@
+# Core data processing
+pandas>=1.3.0
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine Learning & Scientific Computing
+scikit-learn>=1.0.0
+
+# Web & API
+streamlit>=1.10.0
+requests>=2.28.0
+
+# Configuration & Data Formats
+pyyaml>=5.4.0
+python-dotenv>=0.19.0
+
+# Database & Storage
+sqlalchemy>=1.4.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2022.1
+
+# Monitoring & Logging
+loguru>=0.6.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
